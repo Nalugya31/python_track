@@ -1,0 +1,53 @@
+Debugging is finding errors or bugs in your  source code and then fixing it
+A bug is a written code which is not giving us the desired output. 
+	OR
+is a glitch that prevents a code from giving us a desired output.
+	    Importance of learning debugging
+> To quickly solve problems in your code.
+> To have the desired output from your code.
+> To improve productivity as  a software developer.
+	   Examples of bugs
+	>Function error
+	>Type error
+	>Value error
+	>Name error
+CLASSIFICATIONS
+	>Syntanx error(coding bug) while writing eg. spells. This normally happen when you misuse functions,variables and parameters and are normally indentified by the IDE.
+
+	>Logic error (how you solve the problem): Are errors that occur when the steps taken to solve a problem are not correct. eg an infinite loop. The  program works without errors but doesnt produce the expected results.
+	
+	>Design bug: Are bugs that come about through misunderstanding something in the design stage causing the program to do what it is supposed to do but not the right thing to do.
+Tools for finding bugs.
+	> Runtime bugs or errors: Are bugs that occur when the computer tries to perform a task that cant be performed and they are discovered after running the code or program. eg. zero-division error.
+	NB:Testing is what you need to do to break your code.(trying to test the limits of your code)*
+	> lint (linting) underlining your wrong code or wrong syntanx.
+	> The output (in python we dont compile, python executes line to line so the output breaks from where we have a bug.)
+>Python is an interpreted language.
+		DEBUGGING CYCLE:
+step 1: Is writting the code.
+step 2: Check whether the code is working.
+step 3: If its not working , we then debug.
+step 4: If its working then  you go back to coding.
+	THE BUG SEEKING CYCLE:
+step 1: Writting code.
+step 2: Trying to break the code(testing).
+step3: If you succeed in breaking it then you need to debug.
+step4: If you fail to break it then you continue coding.
+
+TIPS FOR DEBUGGING OR PRINCIPALS
+	-Cut the bugs as early as possible.  This is early because details are still in your mind and you know where to look.
+***Cut a bug early.
+***Only hv one bug at a time.
+*** Always look where you have been working if you're trying to look for a bug.
+***Work in small parts, avoid large chunks of code.
+***If you are using github always use small commits.
+	-If a bug is not caught early gets difficult to find because you have no details in your mind and you have a large search space.
+
+
+	
+	
+
+
+
+
+
