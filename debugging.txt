@@ -43,7 +43,14 @@ TIPS FOR DEBUGGING OR PRINCIPALS
 ***If you are using github always use small commits.
 	-If a bug is not caught early gets difficult to find because you have no details in your mind and you have a large search space.
 
-
+STEPS OF DEBUGGING.
+step 1:Plan your attack.
+step 2: Back up your files using github to keep track of your script.
+step3: Isolate the block of code or modules with an issue by commenting it out.
+step4: Finding the actual line with error.
+step5: Fix the error, dont patch it
+step6: Test the fix you have just done.
+step7: Look for similar bugs.
 	
 	
 
