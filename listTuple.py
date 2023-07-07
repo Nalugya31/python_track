@@ -4,6 +4,7 @@ def main():
     # And the indices[labels] range from zero(0)
     # to move back wards we use -negatives.(but we dont hv negative 0 so begin from -1)
     # A list is a mutable data type.
+    # its a variable that stores more than one value.
     my_nums = [0,1,2,3,4,5,6,7,8,9]
     my_nums2 = [10,20,30,40,50]
     osman = [100,[200]]

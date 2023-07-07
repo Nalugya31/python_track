@@ -52,9 +52,74 @@ step5: Fix the error, dont patch it
 step6: Test the fix you have just done.
 step7: Look for similar bugs.
 	
-	
+	OTHER STEPS AND STRATEGIES.
+	-Reproducibility : You need to understand the bug before you try fixing it.(causes and effects)
+	-Reduction : Finding the simpliest or smallest test that exibits the bug. Reduce the search space because bugs are not random they come from somewhere in the code.
+	-Deduction: To findout what the program is doing, the components of the program.
+	-Pair programming: someone else will be able to see which mistake you have made or wrong assumptions.
+						It helps you understand what your're trying to achieve with this code as you're explaining it to someone else.
+	- Liveranging experience from others: Seeking solutions from more experienced programmers.
+	- Preventive measures from bugs: 
+			**Clean and easy to read code eg by indenting well and not repeating yourself.
+			**Commenting; It helps you figure out what your code is supposed  to be doing.
+			**Make one change at time
+			**Testing your code:
+					1.Unit test : Testing functional blocks of your code.
+					2.Intergrational test: Interraction between the functional blocks of your code e.g UI and your database.
+					3.Test with invalid and valid data: what happens to your code when it runs with both vali and invalid data.
+	- Defensive Programming: Adding error checking code and throwing exceptions.
+	- Priotizing which features can be commited
+	- Incubating(resting)
+
+DEBUGGING TOOLS.
+Breakpoints: Is putting breaks in your code to see where your code stops working from or where an error can be.
+print statement can also work to know whether you have used the right variable.
+linting.
+
+
+		what i got:
+		Real-time code analysis refers to the process of analyzing code as it is being written or executed, providing immediate feedback to the developer. This analysis is often performed by specialized tools or plugins integrated into integrated development environments (IDEs) or code editors.
+
+Real-time code analysis tools can perform various checks and validations, including:
+
+1. Syntax checking: Detecting syntax errors, missing or misplaced parentheses, brackets, or semicolons, and other syntactic issues.
+
+2. Static code analysis: Analyzing the code structure, identifying potential bugs, and suggesting improvements based on predefined rules or patterns. This can include detecting unused variables, unreachable code, code duplication, or potential performance issues.
+
+3. Code formatting: Enforcing consistent code formatting guidelines, such as indentation, line spacing, or naming conventions.
+
+4. Code linting: Analyzing the code for potential stylistic issues or deviations from best practices, based on predefined rules or community standards. This can include enforcing consistent code style, checking for code smells, or identifying anti-patterns.
+
+5. Type checking: Verifying the correctness of variable types and detecting type-related errors or inconsistencies, especially in statically typed languages.
+
+6. Code completion: Providing intelligent suggestions or autocompletion for code elements, such as variables, functions, or method names, based on the context and available libraries or frameworks.
+
+7. Security analysis: Scanning the code for potential security vulnerabilities, such as SQL injection, cross-site scripting (XSS), or insecure data handling practices.
+
+These tools typically analyze the code in the background while you are coding, providing feedback through visual indicators, highlighting, or inline suggestions. They can help catch errors early, improve code quality, enforce coding standards, and enhance developer productivity by reducing debugging time.
+
+Popular examples of real-time code analysis tools include ESLint and TSLint for JavaScript and TypeScript, Pylint for Python, RuboCop for Ruby, and SonarLint, which supports multiple programming languages. Integrated development environments (IDEs) like Visual Studio Code, IntelliJ IDEA, and Eclipse often come with built-in or plugin-based real-time code analysis features.
+Research and use a debuging tool of choice to debug your code and do a presentation tomorrow.
 
 
 
 
+Debugging is the process of identifying and resolving errors or bugs in software. There are several tools and techniques available to aid in debugging. Here are some commonly used tools for debugging:
 
+1. Integrated Development Environments (IDEs): IDEs such as Visual Studio, Eclipse, or PyCharm provide comprehensive debugging features. They offer tools like breakpoints, variable inspection, step-by-step execution, and real-time code analysis.
+
+2. Debuggers: Debuggers are standalone tools or features built into IDEs that allow you to execute code step by step, inspect variables, set breakpoints, and analyze the program's execution flow. Popular debuggers include GDB for C/C++ programs and pdb for Python programs.
+
+3. Logging: Logging is the practice of recording specific information during program execution to aid in debugging. Logging frameworks like Log4j (Java), log4net (.NET), or Python's logging module allow you to insert log statements at critical points in your code and output relevant information, such as variable values or error messages.
+
+4. Profilers: Profilers help identify performance bottlenecks and optimize code. They provide insights into the program's runtime behavior, including memory usage, CPU usage, and function call timings. Popular profilers include VisualVM, Xdebug, or cProfile (Python).
+
+5. Console Output: Simple print statements or console output can be effective for debugging. You can insert print statements at various points in your code to display the values of variables or check if specific conditions are met.
+
+6. Browser Developer Tools: When debugging web applications, browser developer tools like Chrome DevTools or Firefox Developer Tools come in handy. They provide a range of features for inspecting and debugging HTML, CSS, and JavaScript code, including breakpoints, console logging, network monitoring, and DOM inspection.
+
+7. Unit Testing Frameworks: Unit testing frameworks, such as JUnit (Java), NUnit (.NET), or pytest (Python), are not strictly debugging tools, but they can help detect and isolate bugs by allowing you to write tests that validate the behavior of individual components of your codebase.
+
+8. Memory Debuggers: Memory debuggers like Valgrind (C/C++) or the built-in memory management tools in programming languages help identify memory leaks, buffer overflows, and other memory-related issues that can cause crashes or erratic behavior.
+
+These tools, used individually or in combination, can significantly assist in the process of debugging and troubleshooting software problems. The choice of tools depends on the programming language, environment, and the specific nature of the bug being investigated. 

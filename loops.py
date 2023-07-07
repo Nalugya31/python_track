@@ -55,6 +55,52 @@ def pwr(p):
         print("The power is an odd number")
 
 pwr(11)
+#While loops
+# they execute a set of statements as long as the condition is true.
+# the break statement breaks the statement even if the while statement id true.
+# using the while loops, define two functions that can outut odd and even numbers.
+#in range of a 100 print out in 10s
+#we increment by 10.
+#personal email
+ 
+def even1():
+    num = 0
+    while num<=100:
+        print(num)
+        num += 10   
+        
+even1()
 
 
+def odd1():
+    num = 1
+    while num<=100:
+        print(num)
+        num += 10
+odd1()
 
+
+def print_odd_numbers():
+    num = 1
+    while num <= 100:
+        if num % 2 != 0:
+            print(num, end=' ')
+        num += 1
+        if num % 20 == 1:
+            print()  # Move to the next line every 10 numbers
+
+
+def print_even_numbers():
+    num = 2
+    while num <= 100:
+        if num % 2 == 0:
+            print(num, end=' ')
+        num += 2
+        if num % 20 == 2:
+            print()  # Move to the next line every 10 numbers
+
+
+print("Odd Numbers:")
+print_odd_numbers()
+print("\n\nEven Numbers:")
+print_even_numbers()
