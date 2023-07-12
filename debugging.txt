@@ -123,3 +123,7 @@ Debugging is the process of identifying and resolving errors or bugs in software
 8. Memory Debuggers: Memory debuggers like Valgrind (C/C++) or the built-in memory management tools in programming languages help identify memory leaks, buffer overflows, and other memory-related issues that can cause crashes or erratic behavior.
 
 These tools, used individually or in combination, can significantly assist in the process of debugging and troubleshooting software problems. The choice of tools depends on the programming language, environment, and the specific nature of the bug being investigated. 
+
+in-built debugging tools.
+
+
