@@ -1,4 +1,4 @@
-#In python two we had row input(strings) and input(integer) while in python 3 we only have input to capture values from the key board.
+#In python two we had raw input(strings) and input(integer) while in python 3 we only have input to capture values from the key board.
 # however in python 3 input accepts everything as a string.
 # In python 2 print was just a statement where by we could write print "" but in python 3 its a function
 # Input captures everything as a string. 

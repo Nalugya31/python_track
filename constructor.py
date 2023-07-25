@@ -26,9 +26,6 @@ school2.register()
 
 
 
-
-
-
 class Country:
    def __init__(self,a,b,c):
       self.name = a 
@@ -49,3 +46,8 @@ class Continent:
       print(f"{continent.name} in {continent.location} has {continent.waterbodies} water bodies.")
 conti1 = Continent("Africa", " the south" , 2300)
 conti1.conti()
+
+
+
+
+

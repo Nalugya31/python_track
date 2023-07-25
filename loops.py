@@ -57,8 +57,8 @@ def pwr(p):
 pwr(11)
 #While loops
 # they execute a set of statements as long as the condition is true.
-# the break statement breaks the statement even if the while statement id true.
-# using the while loops, define two functions that can outut odd and even numbers.
+# the break statement breaks the statement even if the while statement is true.
+# using the while loops, define two functions that can output odd and even numbers.
 #in range of a 100 print out in 10s
 #we increment by 10.
 #personal email
